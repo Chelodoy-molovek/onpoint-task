@@ -1,0 +1,105 @@
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
+body {
+  position: relative;
+  height: 768px;
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  height: 768px;
+  width: 3072px;
+}
+.logo {
+  width: 150px;
+  position: absolute;
+  top: 25px;
+  left: 65px;
+}
+#home {
+  display: flex;
+  flex-direction: column;
+  background: url(./img/bg.png) no-repeat;
+  background-size: 100%;
+  width: 1024px;
+  overflow:hidden;
+}
+.footer {
+  top: 740px;
+  left: 70px;
+  width: 55px;
+  height: 10px;
+  position: absolute;
+}
+#what {
+  background-color: yellow;
+  width: 1024px;
+}
+.tretiy {
+  background-color: black;
+  width: 1024px;
+}
+
+.ne{
+  font-family: 'Gilroy-Bold', sans-serif;
+}
+.hello {
+  font-size: 30px;
+}
+.pink_sperm_1{
+  position:absolute;
+  left: 410px;
+  top: 150px;
+  z-index: 3;
+}
+.pink_sperm{
+  position:absolute;
+  top: 570px;
+}
+.layer_7{
+  position: absolute;
+  top: 70px;
+}
+.hometext {
+  font-family: 'Gilroy-Light', sans-serif;
+  margin-left: 65px;
+  margin-top: 96px;
+  font-size: 111px;
+  line-height: 105px;
+  z-index: 2;
+}
+.bakti_1{
+  position: absolute;
+  top: 480px;
+  left: 25px;
+  z-index: 1;
+}
+.layer_4_copy{
+  position: absolute;
+  left: 350px;
+  top: 600px;
+}
+.layer_4_copy2{
+  position: absolute;
+  left: 900px;
+  top: 20px;
+}
+.layer_8{
+position: absolute;
+left: 850px;
+top: 190px;
+}
+#layer_4{
+  width: 230px;
+  margin-left: 550px;
+/* left: 540px;
+top: 640px; */
+
+}
+.layer_5{
+  position: absolute;
+  left: 740px;
+  top: 60px;
+}
