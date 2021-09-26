@@ -20,7 +20,7 @@ function handleTouchStart (event) {
 function handleTouchMove (event) {
   let x2 = event.touches[0].clientX
   let xDiff = x2 - x
-  if (xDiff > 0) {
+  if (xDiff > 100) {
     if(x>1000 && x <2000){
       animation(home)
     }
@@ -32,7 +32,7 @@ function handleTouchMove (event) {
     if(x<1000){
       animation(what)
     }
-    if(x>1000 && x <2000){
+    if(x>1000){
       animation(tretiy)
     }
     console.log('left')
