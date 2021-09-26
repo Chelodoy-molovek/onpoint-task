@@ -21,41 +21,40 @@ function handleTouchMove (event) {
   let x2 = event.touches[0].clientX
   let xDiff = x2 - x
   if (xDiff > 100) {
-    if(x>1000 && x <2000){
+    if (x > 1000) {
       animation(home)
     }
-    if(x>2000){
+    if (x > 2000) {
       animation(what)
     }
     console.log('right')
   } else {
-    if(x<1000){
+    if (x < 1000) {
       animation(what)
     }
-    if(x>1000){
+    if (x > 1000) {
       animation(tretiy)
     }
     console.log('left')
   }
 }
 
-
-buttpervaya.addEventListener('click', ()=>{
+buttpervaya.addEventListener('click', () => {
   animation(what)
 })
-button.addEventListener('click', ()=>{
+button.addEventListener('click', () => {
   animation(tretiy)
 })
-buttpervayastr.addEventListener('click', ()=>{
+buttpervayastr.addEventListener('click', () => {
   animation(what)
 })
-button1.addEventListener('click', ()=>{
+button1.addEventListener('click', () => {
   animation(home)
 })
-pervaya2.addEventListener('click', ()=>{
+pervaya2.addEventListener('click', () => {
   animation(home)
 })
-function animation (element) {  
+function animation (element) {
   window.scroll({
     left: element.offsetLeft,
     top: 0,
