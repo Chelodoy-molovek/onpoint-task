@@ -87,11 +87,18 @@ body {
   top: 20px;
 }
 .layer_8{
+  /* transform: scale(1,1); */
+
+  animation: moving 5s infinite ease;
+
+  /* указать точку координат, вокруг которой будет вращаться объект */
 position: absolute;
 left: 850px;
 top: 190px;
 }
 #layer_4{
+  transform: scale(1.2,1);
+  animation: moving 20s infinite ease;
   width: 230px;
   margin-left: 550px;
 /* left: 540px;
@@ -102,4 +109,7 @@ top: 640px; */
   position: absolute;
   left: 740px;
   top: 60px;
+}
+@keyframes moving {
+  50% {transform: rotate(1turn) translate(10%);}
 }
