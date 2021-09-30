@@ -20,7 +20,7 @@ function handleTouchStart (event) {
 function handleTouchMove (event) {
   let x2 = event.touches[0].clientX
   let xDiff = x2 - x
-  if (xDiff > 100) {
+  if (xDiff > 0) {
     if (x > 1000) {
       animation(home)
     }
